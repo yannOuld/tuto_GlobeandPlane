@@ -1,0 +1,24 @@
+
+html, body {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
+canvas {
+  position: relative;
+}
+.day-bg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(45deg, rgb(136, 163, 28),rgb(253 243 220));
+  opacity: 1;
+}
+.night-bg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(313deg, #0b1a2b 33%, #3a6291 111%);
+  opacity: 0;
+}
